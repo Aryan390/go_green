@@ -1,0 +1,20 @@
+/* styling for 1000px and less */
+@media (max-width: 1400px){
+  .main{
+    height: 80%;
+    width: 80%;
+  }
+}
+
+
+/* for screen 700px and less */
+@media(max-width: 700px){
+  .main{
+    height: 90%;
+    width: 95%;
+  }
+
+  .heading{
+    font-size: 1.25rem;
+  }
+}

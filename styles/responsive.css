@@ -1,8 +1,5 @@
 /* for screen 1000px and less */
 @media(max-width: 1000px){
-  body{
-    background: red;
-  }
   .company-content{
     flex-direction: column;
   }
