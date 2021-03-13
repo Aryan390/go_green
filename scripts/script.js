@@ -6,9 +6,9 @@ const link2 = document.querySelectorAll('.read-less')
 
 // company data structure holding all the information for the company data
 const company = [
-  {name: 'Suzlon',picture: '../images/ETpJCkc7vp.jpg', contact: '894893849'},
-  {name: 'Renew Power',picture: '../images/1.jpg', contact: '4738439'},
-  {name: 'Tata Power Solar',picture: '../images/1577080748_tt0Wlk_tata_power.jpg', contact: '238923892'}
+  {name: 'Suzlon',picture: './images/ETpJCkc7vp.jpg', contact: '894893849'},
+  {name: 'Renew Power',picture: './images/1.jpg', contact: '4738439'},
+  {name: 'Tata Power Solar',picture: './images/1577080748_tt0Wlk_tata_power.jpg', contact: '238923892'}
 ]
 
 
