@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('../images/9.webp') no-repeat center center/cover;
+}
+
+/* main styles */
+li{
+  list-style: none;
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading-1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  color: rgb(16, 240, 16);
+  font-size: 2.5rem;  
+}
+.heading-1 span{
+  color: rgb(12, 141, 12);
+}
+
+.fa-pagelines{
+  font-size: 3rem;
+  padding: 0 .5rem;
+  color: green;
+}
+
+/* navigation styling */
+.navbar{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* hide nested dropdown by default */
+.navbar ul li ul{
+  display: none;
+}
+
+.navbar ul li{
+  transition: all .2s ease;
+}
+
+.navbar ul li:hover{
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+.dropdown{
+  width: 30%;
+}
+
+/* show dropdown on hover */
+.navbar ul li:hover ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 1rem;
+  z-index: 100;
+  background: blue;
+  border-radius: 5px;
+}
+
+.navbar ul li ul li{
+  background: grey;
+  border-radius: 0;
+  color: black;
+}
+
+.navbar ul li:hover ul li:hover{
+  background: rgb(233, 232, 232);
+  color: black;
+}
+
+.navbar ul li{
+  background: rgb(121, 121, 185);
+  border-radius: 5px;
+  padding: 1rem .8rem;  
+  position: relative;
+}
+
+/* button styling */
+.btn{
+  padding: 1rem .8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: rgb(74, 74, 90);
+  background: rgb(122, 166, 233);
+  border: none;
+  width: 30%;
+  transition: all .3s ease;
+}
+
+.btn:hover{
+  background: black;
+  color: white;
+}
+
+/* company content styling */
+
+.company-content{
+  display: flex;
+  margin-top: 4rem;
+}
+
+.read-more{
+  font-size: .8rem;
+}
+
+.companies{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.company-html{
+  display: flex;
+}
+
+.company-html img{
+  margin-left: .5rem;
+}
+
+.action-goals{
+  width: 30%;
+  text-align: center;
+}
+
+.action-goals h1{
+  margin-bottom: 1rem;
+}
+
+.comp{
+  margin: 2rem 0;
+}
+
+.comp h2{
+  font-size: 1rem;
+  margin: .5rem 0 ;
+}
+
+.read-link{
+  font-size: .8rem;
+  text-decoration: none;
+}
+
+.read-more{
+  display: none;
+}
+
+.read-less{
+  display: none;
+}
+
+
+.action-goals{
+  padding: .5rem;
+  box-shadow: 0 2px 10px 5px rgba(105, 84, 84, 0.158)
+}

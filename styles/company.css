@@ -1,0 +1,24 @@
+.company-html .image-div img{
+  height: 100px;
+  width: 150px;
+  border: 2px solid green;
+}
+
+.image-div{
+  margin-right: 50px;
+}
+
+
+.heading-div p{
+  font-size: .9rem;
+}
+
+.companies .company-html{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.companies{
+  position: relative;
+}
