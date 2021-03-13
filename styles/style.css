@@ -132,6 +132,22 @@ li{
   transition: all .3s ease;
 }
 
+.btn a{
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+.btn a:focus{
+  outline: none;
+}
+
+.btn a:active{
+  outline: none;
+}
+
 .btn:hover{
   background: black;
   color: white;
